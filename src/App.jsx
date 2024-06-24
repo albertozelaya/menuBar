@@ -1,5 +1,5 @@
-import { MenuBar } from "./components";
+import { Container, MenuBar } from "./components";
 
 export default function App() {
-  return <MenuBar/>
+  return <Container/>
 }
