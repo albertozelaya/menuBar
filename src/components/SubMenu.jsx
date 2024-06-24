@@ -12,7 +12,7 @@ export const SubMenu = () => {
 
   return (
     <div>
-      <div className="p-1.5 hover:bg-BG_DARK rounded-md cursor-pointer flex items-center" onClick={handleToggle}>
+      <div className="p-1.5  items-center hover:bg-BG_DARK rounded-md cursor-pointer flex" onClick={handleToggle}>
         Proteccion contra robo
         <img src={triangle} alt="" width={15} className={`ms-2 transition-transform duration-300 ${rotate}`} />
       </div>
